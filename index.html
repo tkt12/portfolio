@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 木下 喬仁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ナビゲーション -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">ホーム</a></li>
+                <li><a href="#about" class="nav-link">自己紹介</a></li>
+                <li><a href="#skills" class="nav-link">スキル</a></li>
+                <li><a href="#experience" class="nav-link">経験</a></li>
+                <li><a href="#projects" class="nav-link">プロジェクト</a></li>
+                <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>木下 喬仁</h1>
+            <p>Mobile App Developer & Web Developer</p>
+            <p>Flutter・SwiftUI・Webを使ったユーザー体験重視のアプリ開発</p>
+            <a href="#about" class="cta-button">詳しく見る</a>
+        </div>
+    </section>
+
+    <!-- 自己紹介セクション -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">自己紹介</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Image (1).jpeg" alt="プロフィール画像" class="profile-image">
+                </div>
+                <div class="about-text">
+                    <h3>こんにちは！</h3>
+                    <p>
+                        専門学校でプログラミングと出会い、アイデアがコードを通じて実際に動くものになることの
+                        魅力に惹かれました。特に代表作「TerraPic」では友人から「めっちゃ便利やん、そのアプリほしい」
+                        と言われ、技術で人の生活を豊かにできる喜びを実感しました。
+                    </p>
+                    <p>
+                        高校時代はバレー部で未経験からレギュラーポジションを獲得し、目標に向けた継続的な努力の
+                        重要性を学びました。どんな立場でも学んだことは次のステップに活きるという信念のもと、
+                        日々技術習得に励んでいます。
+                    </p>
+                    <p>
+                        私の目標は、AI時代に求められるアイディア力と実行力を身につけ、価値あるサービスを
+                        生み出すエンジニアになることです。ユーザー目線で価値あるプロダクトを作り続け、
+                        チームを牽引できる人材を目指しています。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- スキルセクション -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">スキル</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">📱</div>
+                    <h4>Flutter</h4>
+                    <p>クロスプラットフォームアプリ開発。Hero Animationや複雑な状態管理の実装が得意です。</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="--progress: 85%"></div>
+                        </div>
+                        <span class="progress-text">85%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🍎</div>
+                    <h4>SwiftUI</h4>
+                    <p>iOSネイティブアプリ開発。ドラッグジェスチャーによる直感的なUI実装が可能です。</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="--progress: 80%"></div>
+                        </div>
+                        <span class="progress-text">80%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🐍</div>
+                    <h4>Django / DRF</h4>
+                    <p>PythonによるバックエンドAPI開発。PostgreSQL・PostGISと連携した位置情報処理が得意です。</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="--progress: 75%"></div>
+                        </div>
+                        <span class="progress-text">75%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🐹</div>
+                    <h4>Go (Gin)</h4>
+                    <p>高性能なAPIサーバー構築。軽量で高速なバックエンド開発を行います。</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="--progress: 70%"></div>
+                        </div>
+                        <span class="progress-text">70%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🌐</div>
+                    <h4>HTML/CSS/JS</h4>
+                    <p>レスポンシブWebデザインとインタラクティブなフロントエンド開発。</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="--progress: 80%"></div>
+                        </div>
+                        <span class="progress-text">80%</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🎨</div>
+                    <h4>UI/UXデザイン</h4>
+                    <p>ユーザー中心のデザイン思考。直感的で使いやすいインターフェースを設計します。</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="--progress: 75%"></div>
+                        </div>
+                        <span class="progress-text">75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 経験・成長セクション -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">経験と成長</h2>
+            <div class="experience-content">
+                <div class="experience-card">
+                    <div class="experience-icon">🏐</div>
+                    <h3>高校バレー部での挑戦と成長</h3>
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">1年次</div>
+                            <div class="timeline-content">
+                                <h4>未経験からレギュラー獲得</h4>
+                                <p>
+                                    身長と運動神経の良さ、積極的な姿勢を評価され、複数の未経験同期がいる中で
+                                    ミドルブロッカー(MB)としてレギュラーポジションを獲得。
+                                    内心はスパイカーへの憧れがありつつも、チームの必要に応じてMBとしての技術を徹底的に磨きました。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2年次</div>
+                            <div class="timeline-content">
+                                <h4>継続的努力で念願のポジション転向</h4>
+                                <p>
+                                    チームの中心となる立場で、1年間で培ったブロック技術を基盤としつつ、
+                                    独自に跳躍力とスパイク力向上のための自主トレーニングを継続。
+                                    その結果、攻撃力を評価され、念願のオポジット（ウィングスパイカー）ポジションへの転向を実現しました。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-learning">
+                        <h4>この経験から学んだこと</h4>
+                        <p>
+                            強豪校ではない環境でも、目標に向けた継続的な努力が実を結ぶ経験を通じ、
+                            <strong>どんな立場でも学んだことは次のステップに必ず活きる</strong>ことを実感。
+                            この信念は現在のプログラミング学習にも活かされています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロジェクトセクション -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">プロジェクト</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>位置情報付き風景投稿アプリ</span>
+                    </div>
+                    <div class="project-content">
+                        <h4>TerraPic</h4>
+                        <p>
+                            <strong>期間：</strong>2024年7月～2025年1月（6ヶ月）<br>
+                            位置情報付き自然風景投稿アプリの個人開発。場所情報と撮影地点を分離して保存する独自設計により、
+                            スポット探しから撮影位置の発見まで幅広く活用できるUXを実現。Hero Animationを活用したシームレスな画面遷移と、
+                            GlobalKeyを用いたリスト内特定投稿表示機能が技術的な見どころです。
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">DRF</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">PostGIS</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/I6YsTOEXIuY" class="project-link" target="_blank">デモ動画 →</a>
+                            <a href="https://github.com/tkt12/TerraPic" class="project-link" target="_blank">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>政治家発見マッチングアプリ</span>
+                    </div>
+                    <div class="project-content">
+                        <h4>PoliLink</h4>
+                        <p>
+                            <strong>期間：</strong>2025年6月9日～21日（2週間・HackU出場作品）<br>
+                            <strong>担当：</strong>デザイン、フロントエンド(メイン画面)、プレゼン<br>
+                            若者の政治参加を促進するマッチングアプリ。SwiftUIでカードスワイプ機能を実装し、
+                            政治に馴染みのない若者でも気軽に政治家情報を閲覧できる直感的なUIを実現。
+                            NotificationCenterによる疎結合設計で多様な操作スタイルに対応しました。
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SwiftUI</span>
+                            <span class="tech-tag">Go (Gin)</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/oca-hackU2025" class="project-link" target="_blank">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>ポートフォリオサイト</span>
+                    </div>
+                    <div class="project-content">
+                        <h4>このポートフォリオサイト</h4>
+                        <p>
+                            <strong>期間：</strong>2025年6月（制作中）<br>
+                            HTML/CSS/JavaScriptの基本理解と自己表現を目的とした作品。
+                            レスポンシブデザイン、スクロールアニメーション、Intersection Observerを活用した
+                            インタラクティブな演出により、モダンなWebサイトを制作しました。
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">このサイトです！</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 木下 喬仁 Portfolio. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/tkt12" class="social-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
